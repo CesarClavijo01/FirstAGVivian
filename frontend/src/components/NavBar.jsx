@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 export default function NavBar() {
     return (
         <>
-        <nav className='bg-gray-800 absolute flex items-center w-full h-28 top-0 left-0'>
+        <nav className='bg-gray-900 absolute flex items-center w-full h-28 top-0 left-0'>
             <div className=''>
                 <Link to='/'>
                     <img src={FirstAGlogo} alt="logo" className='h-20 w-20 m-4'/>
@@ -25,7 +25,7 @@ export default function NavBar() {
 
       <MenuItems
         transition
-        className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+        className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-900 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
       >
         <div className="py-1">
           <MenuItem>
