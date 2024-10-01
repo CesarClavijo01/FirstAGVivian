@@ -90,9 +90,19 @@ export default function Home() {
         </div>
       </div>
     </Carousel>
-    <div className='bg-white w-full h-5/6 '>
-        <img src="https://i0.wp.com/s3.us-west-1.amazonaws.com/wp-thecripplegate.com/wp-content/uploads/2011/08/09094117/silhoete-preacher-e1312840985735.jpg?ssl=1" alt="" className=' align-middle absolute m-24' />
-    </div>
+      <div className='bg-white w-full h-screen flex'>
+        <div className='align-middle relative m-16 h-5/6'>
+          <img src="https://i0.wp.com/s3.us-west-1.amazonaws.com/wp-thecripplegate.com/wp-content/uploads/2011/08/09094117/silhoete-preacher-e1312840985735.jpg?ssl=1" alt="" className='h-full' />
+        </div>
+        <div className='flex-wrap w-2/4 align-middle relative top-60 font- text-2xl'>
+          <a className='font-sans'>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          </a>
+        </div>
+      </div>
+      <div className='bg-gray-900 w-full h-full'>
+        <h1 className=' text-white static'>hello</h1>
+      </div>
     </div>
         </>
       );
