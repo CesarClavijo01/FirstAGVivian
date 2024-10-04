@@ -91,17 +91,24 @@ export default function Home() {
       </div>
     </Carousel>
       <div className='bg-white w-full h-screen flex'>
-        <div className='align-middle relative m-16 h-5/6'>
+        <div className='align-middle relative top-16 left-14 h-5/6'>
           <img src="https://i0.wp.com/s3.us-west-1.amazonaws.com/wp-thecripplegate.com/wp-content/uploads/2011/08/09094117/silhoete-preacher-e1312840985735.jpg?ssl=1" alt="" className='h-full' />
         </div>
-        <div className='flex-wrap w-2/4 align-middle relative top-60 font- text-2xl'>
+        <div className='flex-wrap w-2/4 align-middle relative top-60 left-24 text-2xl'>
           <a className='font-sans'>
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
           </a>
         </div>
       </div>
-      <div className='bg-gray-900 w-full h-full'>
-        <h1 className=' text-white static'>hello</h1>
+      <div className='bg-gray-900 w-full h-full flex'>
+        <div className='flex w-2/5 align-middle relative top-44 left-14 text-2xl max-h-96'>
+          <p className='text-white font-sans flex-'>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+        <div className='relative top-24 h-5/6 left-24 w-3/6'>
+          <img src="https://www.americansteeples.com/images/steeple_history.jpg" className='w-full'></img>
+        </div>
       </div>
     </div>
         </>
