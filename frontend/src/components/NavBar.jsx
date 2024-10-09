@@ -13,12 +13,12 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className='absolute right-0 flex-nowrap'>
-            <Link className='m-5 font-semibold text-white text-2xl hover:underline'>
+            <Link className='m-5 font-semibold text-white text-lg hover:underline'>
                 ABOUT
             </Link>
             <Menu as="div" className="relative inline-block text-left">
       <div>
-        <MenuButton className="inline-flex  justify-center  bg-transparent px-3 py-2 text-2xl font-semibold text-white hover:underline">
+        <MenuButton className="inline-flex  justify-center  bg-transparent px-3 py-2 text-lg font-semibold text-white hover:underline">
           MINISTRIES
         </MenuButton>
       </div>
@@ -55,16 +55,16 @@ export default function NavBar() {
         </div>
       </MenuItems>
     </Menu>
-    <Link className='m-5 font-semibold text-white text-2xl hover:underline'>
+    <Link className='m-5 font-semibold text-white text-lg hover:underline'>
                 EVENTS
             </Link>
-            <Link className='m-5 font-semibold text-white text-2xl hover:underline'>
+            <Link className='m-5 font-semibold text-white text-lg hover:underline'>
                 NEXT STEP
             </Link>
-            <Link className='m-5 font-semibold text-white text-2xl hover:underline'>
+            <Link className='m-5 font-semibold text-white text-lg hover:underline'>
                 CONTACT
             </Link>
-            <Link className='m-5 font-semibold text-white text-2xl hover:underline'>
+            <Link className='m-5 font-semibold text-white text-lg hover:underline'>
                 GIVE
             </Link>
             </div>
