@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
         <>
         <nav className='bg-gray-900 absolute flex items-center w-full h-28 top-0 left-0'>
-            <div className=''>
+            <div>
                 <Link to='/'>
                     <img src={FirstAGlogo} alt="logo" className='h-20 w-20 m-4'/>
                 </Link>

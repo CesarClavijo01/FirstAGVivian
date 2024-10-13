@@ -10,7 +10,7 @@ module.exports = withMT({
     extend: {
       fontFamily: {
 
-        'dancing-script': ['"Dancing Script", cursive']
+        'playfair-display': ['"Playfair Display", normal']
 
       }
     },
