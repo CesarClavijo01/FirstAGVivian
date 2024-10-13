@@ -192,8 +192,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='bg-white w-full h-full flex'>
-          <div className='w-2/5 align-middle relative top-24 left-14 text-2xl max-h-96'>
+        <div className='bg-white w-full h-full flex items-center'>
+          <div className='w-2/5  relative  left-14 text-2xl'>
             <h1 className='font-playfair-display text-4xl'>
               OUR MISSION
             </h1>
@@ -201,13 +201,13 @@ export default function Home() {
             <p className='text-black font-sans'>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
-            <div className="flex items-center gap-4 justify-center mt-3">
+            <div className="flex items-center gap-4 justify-center mt-5 relative">
               <Button variant="outlined" className="rounded-full text-xl font-semibold border-cyan-700 text-cyan-700 hover:text-white hover:bg-cyan-700">
                 NEXT STEP
               </Button>
             </div>
           </div>
-          <div className='relative top-24 h-5/6 left-24 w-3/6'>
+          <div className='relative  h-3/4 left-24 w-3/6'>
             <img src="https://www.americansteeples.com/images/steeple_history.jpg" className='w-full'></img>
           </div>
         </div>
