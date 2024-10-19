@@ -3,13 +3,13 @@ import { Carousel, Typography, Button } from "@material-tailwind/react";
 export default function Home() {
   return (
     <>
-      <div className='absolute  mt-28 w-full h-5/6'>        
+      <div className='mt-28 w-full h-5/6'>        
         <Carousel transition={{ duration: 2 }} autoplay={true} autoplayDelay={6000} loop={true} >
-          <div className="relative h-full w-screen">
+          <div className="relative max-h-screen w-screen">
             <img
               src="https://cf3.gatewaypeople.com/production/fae/image/asset/6441/gatewayworship_webbanner.jpg"
               alt="image 1"
-              className="h-full w-full object-cover"
+              className="max-h-screen w-full object-cover"
             />
             <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
               <div className="w-3/4 text-center md:w-2/4">
@@ -37,11 +37,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative h-full w-screen">
+          <div className="relative max-h-screen w-screen">
             <img
               src="https://img.texasmonthly.com/2023/07/texas-painted-churches-1.jpg?auto=compress&crop=faces&fit=fit&fm=jpg&h=0&ixlib=php-3.3.1&q=45&w=1250"
               alt="image 2"
-              className="h-full w-full object-cover"
+              className="max-h-screen w-full object-cover"
             />
             <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
               <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
@@ -63,11 +63,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative h-full w-screen">
+          <div className="relative max-h-screen w-screen">
             <img
               src="https://regenbrampton.com/wp-content/uploads/2023/08/How-Does-Volunteering-Help-the-Community_-Hero.jpg"
               alt="image 3"
-              className="h-full w-full object-cover"
+              className="max-h-screen w-full object-cover"
             />
             <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
               <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
@@ -192,7 +192,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='bg-white w-full h-full flex items-center'>
+        <div className='flex-wrap h-screen items-center content-evenly'>
+        <div className='bg-white w-full h- flex items-center  mb-6'>
           <div className='w-2/5  relative  left-14 text-2xl'>
             <h1 className='font-playfair-display text-4xl'>
               OUR MISSION
@@ -211,11 +212,12 @@ export default function Home() {
             <img src="https://www.americansteeples.com/images/steeple_history.jpg" className='w-full'></img>
           </div>
         </div>
-        <div className='bg-white flex justify-center relative'>
+        <div className='bg-white flex justify-center relative top-10'>
           <h1 className='text-3xl w-4/6 text-center font-playfair-display'>
             'FOR GOD SO LOVED THE WORLD, THAT HE GAVE HIS ONE AND ONLY SON, SO WHOEVER BELIEVES IN HIM SHALL HAVE ETERNAL LIFE AND NOT PERISH'<br/>
             JOHN 3:16
           </h1>
+        </div>
         </div>
       </div>
     </>
