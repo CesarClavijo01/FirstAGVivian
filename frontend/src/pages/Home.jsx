@@ -210,8 +210,8 @@ export default function Home() {
           </div>
           <div className='relative  h-3/4 left-24 w-3/6'>
             <img src="https://www.americansteeples.com/images/steeple_history.jpg" className='w-full'></img>
+            </div>
           </div>
-        </div>
         <div className='bg-white flex justify-center relative top-10'>
           <h1 className='text-3xl w-4/6 text-center font-playfair-display'>
             'FOR GOD SO LOVED THE WORLD, THAT HE GAVE HIS ONE AND ONLY SON, SO WHOEVER BELIEVES IN HIM SHALL HAVE ETERNAL LIFE AND NOT PERISH'<br/>
