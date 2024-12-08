@@ -13,7 +13,7 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className='absolute right-0 flex-nowrap'>
-              <Link className='m-5 font-semibold text-white text-lg hover:underline'>
+              <Link to='about' className='m-5 font-semibold text-white text-lg hover:underline'>
                   ABOUT
               </Link>
               <Menu as="div" className="relative inline-block text-left">
