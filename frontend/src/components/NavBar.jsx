@@ -30,7 +30,7 @@ export default function NavBar() {
           <div className="py-1">
             <MenuItem>
               <a
-                href="#"
+                href="/Collide"
                 className="block px-4 py-2 text-sm text-white data-[focus]:bg-sky-500 data-[focus]:text-gray-900"
               >
                 Collide
@@ -38,7 +38,7 @@ export default function NavBar() {
             </MenuItem>
             <MenuItem>
               <a
-                href="#"
+                href="/Youth"
                 className="block px-4 py-2 text-sm text-white data-[focus]:bg-sky-500 data-[focus]:text-gray-900"
               >
                 Bible Thumpers
@@ -46,7 +46,7 @@ export default function NavBar() {
             </MenuItem>
             <MenuItem>
               <a
-                href="#"
+                href="/Worship"
                 className="block px-4 py-2 text-sm text-white data-[focus]:bg-sky-500 data-[focus]:text-gray-900"
               >
                 Worship
