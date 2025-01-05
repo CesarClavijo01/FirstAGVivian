@@ -30,7 +30,7 @@ export default function Youth() {
                     </a>
                 </div>
                 <div className='align-middle relative top-16 left-24 h-5/6'>
-                    <img src="https://sientetrujillo.com/wp-content/uploads/2024/04/Cesar-Clavijo-Arraiza-e1713090976494.jpg" alt="" className='h-full' />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAecJGO2aaWd8iR7BO1rUq020scoAEtNjw1g&s" alt="" className='h-full' />
                 </div>
             </div>
         <div className='bg-gray-900 w-full h-screen flex'>
