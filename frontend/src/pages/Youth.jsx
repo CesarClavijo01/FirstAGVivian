@@ -33,11 +33,11 @@ export default function Youth() {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAecJGO2aaWd8iR7BO1rUq020scoAEtNjw1g&s" alt="" className='h-full' />
                 </div>
             </div>
-        <div className='bg-gray-900 w-full h-screen flex'>
+        <div className='bg-gray-900 w-full h-screen items-center flex'>
                 <div className='align-middle relative top-16 left-14 h-5/6'>
                     <img src="https://allsaintsbythesea.org/wp-content/uploads/2016/09/youth-group.jpg" alt="" className='h-full' />
                 </div>
-                <div className='flex-wrap w-2/4 align-middle relative top-60 left-24 text-2xl'>
+                <div className='flex-wrap w-2/4 align-middle relative left-24 text-2xl'>
                     <h1 className='font-playfair-display text-4xl text-white'>
                         Youth Ministry
                     </h1>

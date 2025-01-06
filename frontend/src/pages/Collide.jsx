@@ -33,11 +33,11 @@ export default function Collide() {
                     <img src="https://i.pinimg.com/280x280_RS/c2/a9/d9/c2a9d9bbbafd91f3c7c60e372af9a5e6.jpg" alt="" className='h-full' />
                 </div>
             </div>
-        <div className='bg-gray-900 w-full h-screen flex'>
+        <div className='bg-gray-900 w-full h-screen flex items-center'>
                 <div className='align-middle relative top-16 left-14 h-5/6'>
                     <img src="https://i.pinimg.com/736x/2d/19/08/2d19081f21aead1f5b58bfffb532cf25.jpg" alt="" className='h-full' />
                 </div>
-                <div className='flex-wrap w-2/4 align-middle relative top-60 left-24 text-2xl'>
+                <div className='flex-wrap w-2/4 align-middle relative left-24 text-2xl'>
                     <h1 className='font-playfair-display text-4xl text-white'>
                         Kids Church
                     </h1>
