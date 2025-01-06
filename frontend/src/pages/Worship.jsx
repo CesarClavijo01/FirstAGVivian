@@ -33,11 +33,11 @@ export default function Worship() {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOPLLaF7Jm6dg2hcSH1RjmQn6AcPvWIAmMKg&s" alt="" className='h-full' />
                 </div>
             </div>
-        <div className='bg-gray-900 w-full h-screen flex'>
+        <div className='bg-gray-900 w-full h-screen flex items-center'>
                 <div className='align-middle relative top-16 left-14 h-5/6'>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0QETrQ2bucSe8h6_BV-dXK77fAmGK1YQcw&s" alt="" className='h-full' />
                 </div>
-                <div className='flex-wrap w-2/4 align-middle relative top-60 left-24 text-2xl'>
+                <div className='flex-wrap w-2/4 align-middle relative left-24 text-2xl'>
                     <h1 className='font-playfair-display text-4xl text-white'>
                         Vivian Night of Worship
                     </h1>
